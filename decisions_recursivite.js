@@ -11,7 +11,7 @@ function estAnneeBissextile(annee) {
   } else if (annee % 4 === 0) {
     return `${annee} est une année bissextile  (divisible par 4)`;
   } else {
-    return `${annee} n'est PAS une année bissextile ❌`;
+    return `${annee} n'est PAS une année bissextile `;
   }
 }
 
